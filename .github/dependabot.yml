@@ -17,7 +17,7 @@ updates:
       - dependency-name: "org.springframework.boot:spring-boot-starter-web"
       - dependency-name: "mysql:mysql-connector-java"
         # For Express, ignore all updates for version 6 and 8
-        versions: ["6.0.x", "8.0.28"]
+        update-types: ["version-update:semver-major"]
       - dependency-name: "org.eclipse.dirigible:dirigible-database-h2"
         # For Express, ignore all updates for version 6 and 8
         versions: ["8.5.0", "8.5.1"]
