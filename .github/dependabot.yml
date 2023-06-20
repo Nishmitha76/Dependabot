@@ -13,11 +13,9 @@ updates:
       # Allow updates for Lodash
       - dependency-name: "com.oracle.database.jdbc:ojdbc8"
       - dependency-name: "org.springframework.boot:spring-boot-starter-data-jpa"
+       - dependency-name: "mysql:mysql-connector-java"
     ignore:
       - dependency-name: "org.springframework.boot:spring-boot-starter-web"
-      - dependency-name: "mysql:mysql-connector-java"
-        # For Express, ignore all updates for version 6 and 8
-        update-types: ["version-update:semver-major"]
       - dependency-name: "org.eclipse.dirigible:dirigible-database-h2"
         # For Express, ignore all updates for version 6 and 8
        update-types: ["version-update:semver-minor"]
