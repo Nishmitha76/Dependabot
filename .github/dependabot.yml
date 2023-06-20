@@ -20,7 +20,7 @@ updates:
         update-types: ["version-update:semver-major"]
       - dependency-name: "org.eclipse.dirigible:dirigible-database-h2"
         # For Express, ignore all updates for version 6 and 8
-       update-types: ["version-update:semver-major"]
+       update-types: ["version-update:semver-minor"]
       
       
       
